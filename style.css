@@ -1,0 +1,22 @@
+
+.Frank > h1{
+
+background-color: blue;
+}
+
+h1+p{
+
+    font-style: italic;
+}
+
+.hidden{
+
+    display:none
+}
+
+.Frank:hover+ .hidden{
+    display: block;
+}
+.hidden p::first-line{
+    font-size: 3rem;
+}
